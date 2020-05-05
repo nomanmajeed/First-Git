@@ -1,5 +1,6 @@
-Working Dir => Staging Dir => Git Repo Dir
+Readme file for Git Useage
 
+Working Dir => Staging Dir => Git Repo Dir
 
 1. Check Git Version => git --Version
 
@@ -25,5 +26,21 @@ Working Dir => Staging Dir => Git Repo Dir
 10. How to use Gitub, first make the repo on Github and through git bash on local machine folder
     make the origion of proj => git remote add origion SSH_URI
 
+11. After commiting push it to github => git push -u origion master
+
+12. For Pulling changes made through Github Web => git push origion master
+
+13. For tracing yout changes in file before commiting => git diff file.ext
+    For staged changes => git diff --staged file.ext 
+
+14. For unstaging the changes
+    File Specfic:
+    => git reset file.ect
+    => git checkout file.ext
+
+    All Changes in multiple files
+    => git checkout .
+    
+15. 
 
  
