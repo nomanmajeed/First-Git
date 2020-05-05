@@ -22,5 +22,8 @@ Working Dir => Staging Dir => Git Repo Dir
 9. See who made changes respectively according to versions
     => git log
 
-10. 
+10. How to use Gitub, first make the repo on Github and through git bash on local machine folder
+    make the origion of proj => git remote add origion SSH_URI
+
+
  
