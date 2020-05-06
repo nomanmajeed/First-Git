@@ -41,6 +41,36 @@ Working Dir => Staging Dir => Git Repo Dir
     All Changes in multiple files
     => git checkout .
     
-15. 
+15. See all files => ls -la
 
+16. CLone a git repo
+    Folder inside Folder => git clone SSH_URI
+    Repo insde Repo => git clone SSH_URI .
+
+17. To make a Git Ignore file for those files that you don't want to commit
+    => touch .gitignore (to initiate)
+    => notepad .gitignore (to write rules on file)
+
+
+##########################################################################################################################################
+
+Branching in Git
+
+1. See the branches:
+    => git branch
  
+2. Make new branch:
+    => git branch branchname
+
+3. Switch branch:
+    => git checkout branchname
+
+4. Merge the new branch to master
+    => switch back to master
+    => git merge branchname
+
+5. Delete a branch from local system:
+    => git branch -d branchname
+
+6. Delete a branch from Github
+    => git push origion --delete branchname
